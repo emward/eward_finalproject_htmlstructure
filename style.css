@@ -1,0 +1,79 @@
+/* Cilento Photography CSS Document - http://cilentophotography.com */
+
+@charset "UTF-8";
+
+/*---General---*/
+
+* { 
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+html {
+	background: url(images/paper_grunge.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+body {
+	width: 1024px;
+	margin: auto;
+	padding: 0px;
+	font-family: 'EB Garamond', serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #3f221b;
+}
+
+/*---Homepage Nav---*/
+
+#home-nav {
+	list-style: none;
+	text-align: center;
+}
+
+#home-nav li {
+	display: inline-block;
+	padding: 15px;
+}
+
+#home-nav a:link {
+	color: #006777;
+	text-decoration: none;
+}
+
+#home-nav a:hover {
+	font-size: 22px;
+	text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+#home-nav h2 {
+	font-size: 21px;
+	color: #006777;
+}
+
+.shadow {
+	border: solid #f1ebc7 5px;
+	-webkit-box-shadow: 8px 5px 8px 2px rgba(57, 57, 57, .35);
+	-moz-box-shadow: 8px 5px 8px 2px rgba(57, 57, 57, .35);
+	box-shadow: 8px 5px 8px 2px rgba(57, 57, 57, .35);
+}
+
+/*---Footer---*/
+
+footer {
+	width: 1024px;
+	text-align: left;
+	padding: 0px;
+	font-size: 10px;
+}
+
+footer li {
+	display: inline-block;
+	margin-left: 12px;
+}
+
+
